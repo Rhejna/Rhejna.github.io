@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Velda Rhejna, Data Scientist & Software Engineer</title>
+  <meta name="description" content="Data scientist and software engineer building from-scratch ML/quantum projects and full-stack systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Douala, Cameroon</p>
+    <h1>Al-Velda Rhejna</h1>
+    <p class="tagline">Data scientist and software engineer. I build things from first principles
+      instead of calling a library and hoping: a document extraction pipeline, a quantum
+      simulator written by hand, and full-stack systems that enforce their own rules.</p>
+    <nav class="links">
+      <a href="https://github.com/Rhejna">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Active builds</h2>
+      <div class="grid">
+        <article class="card">
+          <h3><a href="https://github.com/Rhejna/docile-anomaly-extraction">Document Extraction &amp; Anomaly Detection</a></h3>
+          <p>End-to-end key information extraction from invoices and receipts (DocILE / SROIE),
+             with a downstream anomaly detection layer. Baseline vs. modern model comparison,
+             built and benchmarked by hand.</p>
+          <p class="tags">Python · LayoutLMv3 · Isolation Forest · FastAPI</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/Rhejna/qec-from-scratch">Quantum Error Correction, from scratch</a></h3>
+          <p>A quantum stack built one layer at a time: a simulator written from the ground up,
+             then error-correcting codes and a learned decoder on top. No quantum libraries.
+             Every gate and every check is my own implementation.</p>
+          <p class="tags">Python · NumPy · Quantum computing</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional work</h2>
+      <div class="grid">
+        <article class="card">
+          <h3><a href="https://github.com/Rhejna/kitana-timesheet-analytics">Audit Timesheet Platform</a></h3>
+          <p>Flask + MongoDB web app digitizing audit timesheet tracking, with reporting
+             dashboards and SSO. Built during a Data Analyst engagement at PwC, reorganized here
+             for portfolio review.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/Rhejna/fuel-demand-time-series">Fuel Shortage Forecasting</a></h3>
+          <p>Time-series forecasting across 17 model families (ARIMA, Prophet, LightGBM, VECM...)
+             to anticipate stock-outs across a fuel distribution network. From a Supply Chain /
+             Data Scientist engagement at TotalEnergies.</p>
+        </article>
+        <article class="card">
+          <h3><a href="https://github.com/Rhejna/ontorela-sql-generator">Multi-dialect SQL Generator</a></h3>
+          <p>Java/OWL library that generates PostgreSQL and MSSQL code from an ontology-derived
+             relational schema, applied to healthcare data integration. From a research
+             engagement at Université de Sherbrooke (GRIIS).</p>
+        </article>
+        <article class="card muted">
+          <h3><a href="https://github.com/Rhejna/PegasusMaritimeOps">Maritime Operations Platform</a></h3>
+          <p>Full-stack ops platform for a maritime shipping agency: a server-enforced lifecycle
+             (no stage skipped without real evidence) and a full audit trail. Freelance
+             engagement, client-owned code, so the repo itself is private. Happy to walk
+             through the architecture in conversation.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built and maintained on GitHub Pages.</p>
+  </footer>
+</body>
+</html>
