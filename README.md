@@ -6,6 +6,6 @@ Static HTML/CSS, no build step. Edit `index.html` / `styles.css` directly and pu
 `master` to update the live site.
 
 The old Udacity "Pixel Art Maker" lab (2018) that used to live at this URL hasn't gone
-anywhere: it's kept, untouched, in [`archive/pixel-art-maker/`](archive/pixel-art-maker/)
+anywhere: it's kept, untouched, in [`archive/pixel-art-maker/`](archive/pixel-art-maker/).
 
-.
+> *this is a reupload because OG page wasn't working :(*
